@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.xzone",
+      "sha256_cert_fingerprints": [
+        "cf:61:dc:de:e5:f1:80:57:f9:53:ab:65:64:6f:54:5b:2d:87:15:8b:a2:8a:f5:de:32:35:f0:3c:37:6f:10:a8"
+      ]
+    }
+  }
+]
