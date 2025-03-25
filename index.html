@@ -4,16 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Meta OG para previsualización -->
-  <meta property="og:title" content="Visitar tienda" />
-  <meta property="og:description" content="Explora el perfil, vendedor destacado en MapsX" />
+  <!-- Meta OG por defecto -->
+  <meta property="og:title" content="Explora MapsX" />
+  <meta property="og:description" content="Descubre vendedores cerca de ti" />
   <meta property="og:image" content="https://www.mapsx.app/img/mapsx.png" />
-  <meta property="og:url" content="https://www.mapsx.app/tienda" />
+  <meta property="og:url" content="https://www.mapsx.app/" />
   <meta property="og:type" content="website" />
 
-  <title>Perfil de Juan Pérez</title>
+  <title>MapsX</title>
 </head>
 <body>
-  <h1>Redireccionando a la app...</h1>
+  <h1>Redireccionando...</h1>
+
+  <script>
+    // Espera 1 segundo y abre la app
+    setTimeout(() => {
+      window.location.href = "mapsx://abrir-app"; // tu esquema personalizado o link universal
+    }, 1000);
+  </script>
 </body>
 </html>
